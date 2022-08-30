@@ -16,6 +16,12 @@ exclude:
 
 languages: ['en', 'fr']
 
+gallery:
+    - elephant
+    - dog
+    - cat
+    - stars
+
 t: 
   en:
     tagline: Weighted Therapeutic Animals
