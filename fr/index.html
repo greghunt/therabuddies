@@ -40,18 +40,15 @@ lang: fr
 
 <div class="mx-16">
     <div class="my-16 mx-6 grid grid-cols-1 lg:grid-cols-2 xl:grid-cols-4 gap-16">
-        <div class="shadow-lg flex items-center justify-center pb-16 px-8">
-            {% include shop-ziggy.html %}
-        </div>
-        <div class="shadow-lg flex items-center justify-center pb-16 px-8">
-            {% include shop-luna.html %}
-        </div>
-        <div class="shadow-lg flex items-center justify-center pb-16 px-8">
-            {% include shop-abbey.html %}
-        </div>
-        <div class="shadow-lg flex items-center justify-center pb-16 px-8">
-            {% include shop-star.html %}
-        </div>
+        {% for item in site.gallery %}
+        <figure
+            class="block group cursor-pointer hover:shadow-xl rounded-xl overflow-hidden transition hover:-translate-y-4 hover:scale-110">
+            <img class="group-hover:hidden" src="{{ site.baseurl_root }}/assets/products/{{ item }}.webp"
+                alt="Therapeutic Grey Plush {{ item }}" />
+            <img class="hidden group-hover:block" src="{{ site.baseurl_root }}/assets/products/{{ item }}-hover.webp"
+                alt="Therapeutic Beige Plush {{ item }}" />
+        </figure>
+        {% endfor %}
     </div>
 </div>
 
@@ -73,7 +70,6 @@ lang: fr
                     </li>
                     <li>Coutures renforcées / Tissu durable</li>
                     <li>Fabriqué au Canada</li>
-                    <li>Sac de rangement à cordonnet inclus</li>
                 </ul>
             </div>
         </div>
