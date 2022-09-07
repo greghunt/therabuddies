@@ -22,6 +22,63 @@ gallery:
     - cat
     - stars
 
+catalog:
+    - 
+      slug: crocodile
+      name: Crododile
+      price: $52
+      description: 5 lbs
+    - 
+      slug: elephant
+      name: Elephant
+      price: $52
+      description: 5 lbs
+    - 
+      slug: rabbit
+      name: Rabbit
+      price: $52
+      description: 5 lbs
+    - 
+      slug: ladybug
+      name: Ladybug
+      price: $52@6lbs / $45@3lbs 
+      description: Available in 3 & 6 lbs
+    - 
+      slug: octopus
+      name: Octopus
+      price: $52@6lbs / $45@3lbs 
+      description: Available in 3 & 6 lbs
+    - 
+      slug: cat-hover
+      name: Cat (Beige)
+      price: 52
+      description: 5 lbs
+    - 
+      slug: cat
+      name: Cat
+      price: 52
+      description: 5 lbs
+    - 
+      slug: dog-hover
+      name: Dog (Beige)
+      price: 52
+      description: 5 lbs
+    - 
+      slug: dog
+      name: Dog
+      price: 52
+      description: 5 lbs
+    - 
+      slug: elephant-hover
+      name: Elephant (Beige)
+      price: 52
+      description: 5 lbs
+    - 
+      slug: stars
+      name: Stars
+      price: 52
+      description: 5 lbs
+
 t: 
   en:
     tagline: Weighted Therapeutic Animals

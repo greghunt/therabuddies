@@ -2,8 +2,31 @@
 layout: default
 lang: en
 ---
-
-<div class="container py-20">
+<div class="bg-cover bg-center h-[50vh] text-white flex items-center justify-center"
+    style="background-image: url('{{ site.baseurl_root }}/assets/images/catalog-hero.webp')">
     <h1 class="heading text-center">Catalog</h1>
-    <p>Coming soon</p>
+</div>
+<div class="mx-auto max-w-2xl py-16 px-4 sm:py-24 sm:px-6 lg:max-w-7xl lg:px-8">
+    <h2 id="products-heading" class="sr-only">
+        Products
+    </h2>
+
+    <div class="grid grid-cols-1 gap-y-10 gap-x-6 sm:grid-cols-2 lg:grid-cols-3 xl:gap-x-8">
+        {% for item in site.catalog %}
+        <div class="group overflow-hidden rounded-xl shadow-lg bg-slate-100">
+            <div class="aspect-w-1 aspect-h-1 w-full">
+                <img src="{{ site.baseurl_root }}/assets/products/{{ item.slug }}.webp"
+                    alt="Therapeutic Grey Plush {{ item.name }}"
+                    class="h-full w-full object-cover group-hover:object-contain object-center" />
+            </div>
+            <div class="p-4">
+                <div class="mt-4 flex items-center justify-between text-base font-medium text-gray-900">
+                    <h3>{{item.name}}</h3>
+                    <p>{{item.price}}</p>
+                </div>
+                <p class="mt-1 text-sm italic text-gray-500">{{item.description}}</p>
+            </div>
+        </div>
+        {% endfor %}
+    </div>
 </div>

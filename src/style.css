@@ -9,31 +9,11 @@ html {
 }
 
 .container {
-    @apply max-w-6xl mx-auto px-4;
-
-    @screen sm {
-        @apply px-6;
-    }
-
-    @screen lg {
-        @apply px-8;
-    }
+    @apply max-w-6xl mx-auto px-4 sm:px-6 lg:px-8;
 }
 
 .heading {
-    @apply text-3xl leading-10 font-extrabold;
-
-    @screen sm {
-        @apply leading-none;
-    }
-
-    @screen md {
-        @apply text-6xl;
-    }
-
-    @screen lg {
-        @apply text-5xl;
-    }
+    @apply text-3xl leading-10 font-extrabold sm:leading-none md:text-6xl lg:text-5xl;
 }
 
 .circular-icon {
