@@ -49,35 +49,10 @@ catalog:
       price: $52@6lbs / $45@3lbs 
       description: Available in 3 & 6 lbs
     - 
-      slug: cat-hover
-      name: Cat (Beige)
-      price: 52
-      description: 5 lbs
-    - 
-      slug: cat
-      name: Cat
-      price: 52
-      description: 5 lbs
-    - 
-      slug: dog-hover
-      name: Dog (Beige)
-      price: 52
-      description: 5 lbs
-    - 
-      slug: dog
-      name: Dog
-      price: 52
-      description: 5 lbs
-    - 
-      slug: elephant-hover
-      name: Elephant (Beige)
-      price: 52
-      description: 5 lbs
-    - 
       slug: stars
       name: Stars
-      price: 52
-      description: 5 lbs
+      price: $6.95
+      description: In assorted colours
 
 t: 
   en:
