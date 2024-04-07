@@ -24,9 +24,14 @@ gallery:
 
 catalog:
     - 
+      slug: panda
+      name: Panda
+      price: $52
+      description: 5 lbs
+    - 
       slug: crocodile
       name: Crododile
-      price: $52
+      price: $55
       description: 5 lbs
     - 
       slug: elephant
@@ -51,7 +56,12 @@ catalog:
     - 
       slug: stars
       name: Stars
-      price: $6.95
+      price: $8.95
+      description: In assorted colours
+    - 
+      slug: fidgetters
+      name: Fidget
+      price: $25.00
       description: In assorted colours
 
 t: 
